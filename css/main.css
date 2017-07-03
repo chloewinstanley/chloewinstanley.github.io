@@ -1,0 +1,195 @@
+/* 
+Project Name: George Sydney Selwyn-Brace Portfolio
+Author: George Sydney Selwyn-Brace
+*/
+
+/* COLOURS: Black #1a1a1a, Mid Grey #ccc, Dark Grey #777, Green #666 */
+
+/* SMALLER SCREEN/DEFAULT */
+
+
+*{
+	box-sizing: border-box;
+}
+html{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 16px;
+	color: #333333;
+	fill: #333333;
+}
+body{
+	width: 100%;
+	height: 100vh;
+	padding-top: 90px;
+	position: fixed;
+}
+img, svg{
+	width:100%;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+	transition: 0.3s ease;
+}
+
+p a{
+	border-bottom: solid 1px #ccc;
+	/*ee6754*/
+}
+
+p{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 0.9rem;
+	font-weight: 300;
+	line-height: 145%;
+
+}
+
+
+h1{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 2rem;
+	font-weight: 300;
+}
+h2{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 0.8rem;
+	line-height: 145%;
+	margin:0;
+	font-weight: 500;
+	color: #747474;
+}
+
+.chloe-yellow{
+	fill: #D6CD21;
+	color: #D6CD21;
+}
+.chloe-grey{
+	fill: #333;
+	color: #333;
+}
+
+#splash{
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 180;
+	background-color: #fff;
+}
+.splash-graphics{
+	width: 65vw;
+	position: absolute;
+	transition: 0.3s ease;
+	transform: translate(-50%,-50%);
+	top: 48%;
+	left: 50%;
+}
+
+.cw-name{
+	position: fixed;
+	top: 40px;
+	left: 40px;
+	width: 170px;
+	z-index: 140;
+}
+.burger-box{
+	position: fixed;
+	top: 40px;
+	right: 40px;
+	width: 17px;
+	z-index: 160;
+}
+.vegan-burger{
+	transition: fill 0.5s linear;
+}
+.vegan-burger:hover{
+	fill: #e8e8e8;
+}
+
+.slideshow{
+	position: relative;
+	z-index: 10;
+}
+.trigger{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	bottom: 0;
+	z-index: 150;
+}
+.next{
+	left: 50%;
+	cursor: url(../images/cursor-next.svg) 32 12, e-resize;
+}
+.previous{
+	left: 0;
+	cursor: url(../images/cursor-previous.svg) 0 12, w-resize;
+}
+.image-canvas{
+	width: 100%;
+	height: calc(100vh - 160px);
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+#caption{
+	display: block;
+	position: absolute;
+	text-align: left;
+	bottom: 25px;
+	left: 0;
+	width: 100%;
+	padding: 0 40px;
+	z-index: 140;
+}
+
+
+
+
+
+/*LARGE SCREEN*/
+
+@media screen and (min-width: 720px){
+
+	.cw-name{
+		width: 200px;
+
+	}
+	.burger-box{
+		width: 20px;
+	}
+	h2{
+		font-size: 0.9rem;
+	}
+
+}
+
+
+/* Clearfix */
+
+.clearfix:before,
+.clearfix:after {
+     content: " ";
+     display: table;
+}
+.clearfix:after {
+     clear:both;
+}
+
+.is-hidden {
+     display: none;
+}
+.is-visible {
+     display: block;
+}
+
+
+
