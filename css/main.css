@@ -97,10 +97,15 @@ h2{
 }
 .burger-box{
 	position: fixed;
-	top: 40px;
-	right: 40px;
+	top: 52px;
+	right: 50px;
 	width: 17px;
 	z-index: 160;
+	transform: translate(50%,-50%);
+	transition: width 0.1s linear;
+}
+.burger-box:hover{
+	width: 20px;
 }
 .vegan-burger{
 	transition: fill 0.5s linear;
@@ -165,6 +170,9 @@ h2{
 	}
 	.burger-box{
 		width: 20px;
+	}
+	.burger-box:hover{
+		width: 23px;
 	}
 	h2{
 		font-size: 0.9rem;
