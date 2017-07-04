@@ -7,4 +7,19 @@ $(document).ready(function(){
 	$('#dot-4').delay(2250).fadeIn(250,"linear");
 	$('#splash').delay(2700).fadeOut(300,"linear");
 
+	$('.vegan-burger').on('click', function(){
+
+		if ($('.vegan-burger').hasClass('closed')) {
+
+		$('#menu').removeClass('menu-hide');
+		$('.vegan-burger').removeClass('closed');
+
+		} else {
+
+			$('#menu').addClass('menu-hide');
+			$('.vegan-burger').addClass('closed');
+
+		}
+	});
+
 });

@@ -93,7 +93,7 @@ h2{
 	top: 40px;
 	left: 40px;
 	width: 170px;
-	z-index: 140;
+	z-index: 150;
 }
 .burger-box{
 	position: fixed;
@@ -110,13 +110,53 @@ h2{
 .vegan-burger{
 	transition: fill 0.5s linear;
 }
-.vegan-burger:hover{
-	fill: #e8e8e8;
+#menu{
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	padding: 0;
+	margin: 0;
+	z-index: 145;
+	background-color: #fff;
+	width: 100vw;
+	height: 100vh;
+	transition: 0.5s ease;
+}
+#menu ul{
+	margin: 0;
+	padding:0;
+	width: 100%;
+	/*border: solid 1px red;*/
+	position: absolute;
+	top: 70px;
+	left: 40px;
+}
+.menu-hide{
+	transform: translate(100%);
+}
+.menu-item{
+	font-size: 0.8rem;
+	list-style: none;
+	text-transform: uppercase;
+	letter-spacing: 0.07em;
+	color: #747474;
+	margin: 20px 0;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e8e8e8;
+}
+.menu-item:first-child{
+	border-top: 1px solid #e8e8e8;
+	padding-top: 20px;
+}
+.menu-icon{
+	width: 0.6rem;
+	margin-right: 10px;
 }
 
 .slideshow{
 	position: relative;
 	z-index: 10;
+	/*transform: translate(-20vw, 0);*/
 }
 .trigger{
 	position: absolute;
@@ -174,8 +214,12 @@ h2{
 	.burger-box:hover{
 		width: 23px;
 	}
+
 	h2{
 		font-size: 0.9rem;
+	}
+	#menu{
+		width: 33vw;
 	}
 
 }
