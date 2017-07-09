@@ -112,43 +112,33 @@ h2{
 }
 #menu{
 	position: fixed;
-	top: 0px;
-	right: 0px;
+	text-align: right;
+	width: 100%;
+	top: 40px;
+	right: 40px;
 	padding: 0;
 	margin: 0;
 	z-index: 145;
-	background-color: #fff;
-	width: 100vw;
-	height: 100vh;
 	transition: 0.5s ease;
-	overflow: scroll;
 }
 #menu ul{
 	margin: 0;
-	padding:0;
+	padding: 0 20px 0 0;;
 	width: 100%;
 	/*border: solid 1px red;*/
 	position: absolute;
-	top: 70px;
-	left: 40px;
 }
 .menu-hide{
 	transform: translate(100%);
 }
 .menu-item{
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 	list-style: none;
-	text-transform: uppercase;
-	letter-spacing: 0.07em;
-	color: #747474;
-	margin: 20px 0;
-	padding-bottom: 20px;
-	border-bottom: 1px solid #e8e8e8;
+	letter-spacing: 0.05em;
+	display: inline-block;
+	margin-right: 20px;
 }
-.menu-item:first-child{
-	border-top: 1px solid #e8e8e8;
-	padding-top: 20px;
-}
+
 .menu-icon{
 	width: 0.6rem;
 	margin-right: 10px;
@@ -220,9 +210,9 @@ h2{
 	h2{
 		font-size: 0.9rem;
 	}
-	#menu{
+/*	#menu{
 		width: 33vw;
-	}
+	}*/
 
 }
 
