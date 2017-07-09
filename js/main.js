@@ -11,12 +11,12 @@ $(document).ready(function(){
 
 		if ($('.vegan-burger').hasClass('closed')) {
 
-		$('#menu').removeClass('menu-hide');
+		$('#menu').fadeIn(500,"linear");
 		$('.vegan-burger').removeClass('closed');
 
 		} else {
 
-			$('#menu').addClass('menu-hide');
+			$('#menu').fadeOut(500,"linear");
 			$('.vegan-burger').addClass('closed');
 
 		}

@@ -90,9 +90,9 @@ h2{
 
 .cw-name{
 	position: fixed;
-	top: 40px;
-	left: 40px;
-	width: 170px;
+	top: 35px;
+	left: 35px;
+	width: 200px;
 	z-index: 150;
 }
 .burger-box{
@@ -111,6 +111,7 @@ h2{
 	transition: fill 0.5s linear;
 }
 #menu{
+	display: none;
 	position: fixed;
 	text-align: right;
 	width: 100%;
@@ -119,7 +120,6 @@ h2{
 	padding: 0;
 	margin: 0;
 	z-index: 145;
-	transition: 0.5s ease;
 }
 #menu ul{
 	margin: 0;
@@ -127,9 +127,6 @@ h2{
 	width: 100%;
 	/*border: solid 1px red;*/
 	position: absolute;
-}
-.menu-hide{
-	transform: translate(100%);
 }
 .menu-item{
 	font-size: 0.9rem;
@@ -197,7 +194,7 @@ h2{
 @media screen and (min-width: 720px){
 
 	.cw-name{
-		width: 200px;
+		width: 250px;
 
 	}
 	.burger-box{
@@ -210,9 +207,6 @@ h2{
 	h2{
 		font-size: 0.9rem;
 	}
-/*	#menu{
-		width: 33vw;
-	}*/
 
 }
 
