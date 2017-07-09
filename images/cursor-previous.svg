@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="40px" height="20px" viewBox="0 0 40 20" style="enable-background:new 0 0 40 20;" xml:space="preserve">
+	 width="10.9px" height="20px" viewBox="0 0 10.9 20" style="enable-background:new 0 0 10.9 20;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#D6CD21;}
 </style>
-<g>
-	<path class="st0" d="M2.4,10.7l8.5,8.4L10,20L0,10L10,0l0.9,0.9L2.4,9.4H40v1.3H2.4z"/>
-</g>
+<polygon class="st0" points="10.1,20 0,10.1 10.1,0 10.9,0.8 1.6,10.1 10.9,19.2 "/>
 </svg>
