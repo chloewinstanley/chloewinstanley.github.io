@@ -87,6 +87,22 @@ h2{
 	top: 48%;
 	left: 50%;
 }
+.dot{
+	opacity: 0;
+	transition: 1s ease;
+	transform: translate(-50%, -60%);
+}
+.animated-dot{
+	opacity: 1;
+	transform: translate(-50%, -50%);
+}
+.hide-name{
+	opacity: 0;
+	transition: 1.4s ease;
+}
+.animated-name{
+	opacity: 1;
+}
 
 .cw-name{
 	position: fixed;
