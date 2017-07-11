@@ -21,7 +21,7 @@ body{
 	height: 100vh;
 	padding-top: 100px;
 	position: fixed;
-	/*background-color: #f5f5f5;*/
+	background-color: #f5f5f5;
 
 }
 img, svg{
@@ -99,10 +99,12 @@ h2{
 }
 .hide-name{
 	opacity: 0;
+	width: 63vw;
 	transition: 1.4s ease;
 }
 .animated-name{
 	opacity: 1;
+	width: 65vw;
 }
 
 .cw-name{
