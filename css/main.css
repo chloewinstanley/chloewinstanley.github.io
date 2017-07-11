@@ -106,9 +106,9 @@ h2{
 
 .cw-name{
 	position: fixed;
-	top: 35px;
+	top: 40px;
 	left: 51%;
-	width: 60px;
+	width: 180px;
 	z-index: 150;
 	transform: translate(-50%, 0);
 
@@ -116,7 +116,7 @@ h2{
 .burger-box{
 	position: fixed;
 	top: 52px;
-	right: 50px;
+	right: 40px;
 	width: 17px;
 	z-index: 160;
 	transform: translate(50%,-50%);
@@ -133,7 +133,7 @@ h2{
 	position: fixed;
 	text-align: center;
 	width: 100%;
-	top: 30px;
+	top: 40px;
 	padding: 0;
 	margin: 0;
 	z-index: 145;
@@ -207,7 +207,7 @@ h2{
 @media screen and (min-width: 720px){
 
 	.cw-name{
-		width: 65px;
+		width: 220px;
 
 	}
 	.menu-item{
