@@ -207,7 +207,7 @@ h2{
 @media screen and (min-width: 720px){
 
 	.cw-name{
-		/*width: 220px;*/
+		width: 220px;
 
 	}
 	.menu-item{
