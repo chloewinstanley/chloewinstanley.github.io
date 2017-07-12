@@ -99,7 +99,7 @@ h3{
 }
 .splash-graphics{
 	width: 65vw;
-	position: absolute;
+	position: fixed;
 	transition: 0.3s ease;
 	transform: translate(-50%,-50%);
 	top: 48%;
@@ -116,7 +116,7 @@ h3{
 }
 .hide-name{
 	opacity: 0;
-	width: 64vw;
+	width: 64.5vw;
 	transition: 1.4s ease;
 }
 .animated-name{
