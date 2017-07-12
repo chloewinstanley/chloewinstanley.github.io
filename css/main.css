@@ -41,7 +41,7 @@ a{
 }
 
 p a{
-	border-bottom: solid 1px #D6CD21;
+	border-bottom: solid 1px #d8caa5;
 	/*ee6754*/
 }
 
@@ -51,6 +51,7 @@ p{
 	font-weight: 300;
 	line-height: 170%;
 	font-style: normal;
+	margin: 10px 0;
 }
 i{
 	font-style: italic;
@@ -79,9 +80,9 @@ h3{
 	margin: 40px 0 0;
 }
 
-.chloe-yellow{
-	fill: #D6CD21;
-	color: #D6CD21;
+.chloe-accent{
+	fill: #d8caa5;
+	color: #d8caa5;
 }
 .chloe-grey{
 	fill: #333;
@@ -95,7 +96,7 @@ h3{
 	top: 0;
 	left: 0;
 	z-index: 180;
-	background-color: #fff;
+	background-color: #f5f5f5;
 }
 .splash-graphics{
 	width: 65vw;
@@ -222,6 +223,11 @@ h3{
 	padding:0 40px;
 	margin-bottom: 80px;
 }
+.insta-icon{
+	margin: 20px 0;
+	width: 25px;
+}
+
 .hide-at-small-screen{
 	display: none;
 }
@@ -239,7 +245,7 @@ h3{
 
 	}
 	.menu-item{
-		font-size: 1rem;
+		font-size: 1.1rem;
 	}
 	.burger-box{
 		width: 20px;
