@@ -125,6 +125,13 @@ h3{
 	width: 75vw;
 }
 
+header{
+	position: fixed;
+	top: 0;
+	height: 100px;
+	width: 100%;
+	background-color: #f5f5f5;
+}
 .cw-name{
 	position: fixed;
 	top: 40px;
