@@ -35,12 +35,14 @@ $(document).ready(function(){
 		$('#menu').fadeIn(500,"linear");
 		$('.cw-name').fadeOut(500,"linear");
 		$('.vegan-burger').removeClass('closed');
+		$('header').addClass('menu-active');
 
 		} else {
 
 			$('#menu').fadeOut(500,"linear");
 			$('.cw-name').fadeIn(500,"linear");
 			$('.vegan-burger').addClass('closed');
+			$('header').removeClass('menu-active');
 
 		}
 	});
