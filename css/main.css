@@ -75,7 +75,6 @@ h3{
 	font-family: 'Libre Baskerville', serif;
 	font-size: 1.35rem;
 	font-weight: 400;
-	/*font-style: italic;*/
 	color: #333;
 	margin: 40px 0 0;
 }
@@ -97,10 +96,6 @@ h3{
 	left: 0;
 	z-index: 180;
 	background-color: #f5f5f5;
-/*	display: flex;
-  	justify-content: center;
-  	align-items: center;
-  	flex-direction: column;*/
 }
 .splash-graphics{
 	width: 75vw;
@@ -216,6 +211,18 @@ header{
 	left: 0;
 	cursor: url(../images/cursor-previous.svg) 0 12, w-resize;
 }
+.swipe-indicator-next{
+	position: absolute;
+	bottom: 30px;
+	right: 10px;
+	width: 15px;
+}
+.swipe-indicator-previous{
+	position: absolute;
+	bottom: 30px;
+	left: 10px;
+	width: 15px;
+}
 .image-canvas{
 	width: 100%;
 	height: calc(100vh - 180px);
@@ -233,7 +240,7 @@ header{
 	bottom: 30px;
 	right: 0;
 	width: 100%;
-	padding: 0 40px;
+	padding: 0 60px;
 	z-index: 140;
 }
 .text-block{
@@ -279,6 +286,9 @@ header{
 	.menu-item{
 		font-size: 1.1rem;
 	}
+	.menu-item a:hover{
+		color: #777;
+	}
 	.burger-box{
 		width: 5px;
 	}
@@ -290,6 +300,9 @@ header{
 	}
 	p{
 		font-size: 1.1rem;
+	}
+	p a:hover{
+	color: #777;
 	}
 
 	h2{
