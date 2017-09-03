@@ -153,7 +153,7 @@ header{
 .burger-box{
 	position: fixed;
 	top: 52px;
-	right: 40px;
+	right: 47px;
 	width: 20px;
 	height: 20px;
 	z-index: 160;
@@ -161,7 +161,8 @@ header{
 }
 .vegan-burger{
 	transition: fill 0.5s linear;
-	width: 5px;
+	width: 19px;
+	padding:0 7px;
 }
 #menu{
 	position: relative;
