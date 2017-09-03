@@ -150,25 +150,23 @@ header{
 	position: fixed;
 	top: 52px;
 	right: 40px;
-	width: 17px;
+	width: 5px;
 	z-index: 160;
 	transform: translate(50%,-50%);
 	transition: width 0.1s linear;
-}
-.burger-box:hover{
-	width: 20px;
 }
 .vegan-burger{
 	transition: fill 0.5s linear;
 }
 #menu{
-	display: block;
-	display: none;
 	position: relative;
 	text-align: center;
 	width: 100%;
-	top: 50%;
-	transform: translateY(-50%);
+	height: 100px;
+	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+  	top: 0;
 	padding: 0;
 	margin: 0;
 	z-index: 145;
@@ -178,8 +176,10 @@ header{
 	padding: 0;
 	width: 100%;
 	padding: 0 65px;
-	/*border: solid 1px red;*/
 	position: absolute;
+}
+#menu-wrap{
+	display: none;
 }
 .menu-item{
 	font-size: 0.9rem;
@@ -239,7 +239,10 @@ header{
 	margin-bottom: 80px;
 }
 .insta-icon{
-	margin: 20px 0;
+	border: none;
+}
+.insta-icon svg{
+	margin: 20px 0 0;
 	width: 25px;
 }
 
@@ -272,10 +275,13 @@ header{
 		font-size: 1.1rem;
 	}
 	.burger-box{
-		width: 20px;
+		width: 5px;
 	}
-	.burger-box:hover{
-		width: 23px;
+	.vegan-burger:hover{
+		fill: #333;
+	}
+	.insta-icon:hover{
+		fill: #d8caa5;
 	}
 	p{
 		font-size: 1.1rem;
