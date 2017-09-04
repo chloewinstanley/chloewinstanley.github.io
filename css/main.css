@@ -194,7 +194,6 @@ header{
 	position: relative;
 	z-index: 10;
 	width: 100%;
-	height: calc(100vh - 100px);
 }
 .trigger{
 	position: absolute;
@@ -211,21 +210,10 @@ header{
 	left: 0;
 	cursor: url(../images/cursor-previous.svg) 0 12, w-resize;
 }
-.swipe-indicator-next{
-	position: absolute;
-	bottom: 30px;
-	right: 10px;
-	width: 15px;
-}
-.swipe-indicator-previous{
-	position: absolute;
-	bottom: 30px;
-	left: 10px;
-	width: 15px;
-}
+
 .image-canvas{
 	width: 100%;
-	height: calc(100vh - 180px);
+	height: calc(100vh - 220px);
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
@@ -233,15 +221,21 @@ header{
 	background-size: contain;
 	background-repeat: no-repeat;
 }
+.caption-slug{
+	display: block;
+	position: relative;
+	height: 120px;
+}
 #caption{
 	display: block;
 	position: absolute;
 	text-align: center;
-	bottom: 30px;
-	right: 0;
 	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
 	padding: 0 60px;
 	z-index: 140;
+	line-height: 180%;
 }
 .text-block{
 	max-width: 600px;
@@ -310,6 +304,12 @@ header{
 	}
 	.hide-at-small-screen{
 		display: inline-block;
+	}
+	.image-canvas{
+		height: calc(100vh - 190px);
+	}
+	.caption-slug{
+		height: 90px;
 	}
 
 }
