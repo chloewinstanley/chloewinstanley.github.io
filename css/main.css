@@ -221,6 +221,17 @@ header{
 	background-size: contain;
 	background-repeat: no-repeat;
 }
+.slide-text{
+	text-align: center;
+	width: 100%;
+	max-width: 600px;
+	padding:0 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, calc(-50% - 40px));
+
+}
 .caption-slug{
 	display: block;
 	position: relative;
